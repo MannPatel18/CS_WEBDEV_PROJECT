@@ -105,6 +105,7 @@ function generateMaze() {
 }
 
 setup();
+//my name is MOOON PATEL
 
 document.getElementById("explore").addEventListener("click", () => {
     front.style.display = "none";
