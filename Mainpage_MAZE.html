@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Document</title>
+	<link rel="stylesheet" href="gen.css">
+	<script defer src="actions.js"></script>
+</head>
+
+<body>
+	<header>
+		<div id="header">
+			<div id="icon"><a src="loginpage.html"><img src="Maze_id1gKb1DY5_1.png" div></a></div>
+			<div id="nav">
+				<div id="generate">
+					Generate Maze
+				</div>
+				<div id="custom"><a>
+						Custom Maze
+					</a></div>
+				<div id="algorihmns"><a>
+						Algoritmns
+					</a></div>
+			</div>
+			<div id="return"><a><img src="return-button-svgrepo-com.svg"></a></div>
+		</div>
+		<div id="seprator_line"></div>
+	</header>
+	
+	<div class="frontintialpage" id="front"> 
+		<div id="content">
+			<div id="discription">
+				<div>Create and Solve Mazes with Ease</div>
+				<br><br>
+				<div>Discover a fun and interactive way to generate and solve mazes using various algorithms. Customize your
+					experience by uploading your own maze designs or choosing from our dynamic options</div>
+			</div>
+			<div id="explore">
+				Explore More
+			</div>
+		</div>
+	</div>
+
+	<div class="mainpage">
+		<div id="grid_and_algorithms">
+			<canvas id="grid"></canvas>
+			<div id="gridtype">
+				<div id="gridsize">
+					<span>Length: <input type="number" id="len"></span><br><br>
+					<span>Breadth: <input type="number" id="bre"></span>
+				</div>
+				<!-- <div id="start_and_end">
+						<form action="actions.js">
+							<span >Start: <input type="number" id="Start"></span>
+							<span >End:<input type="number" id="End"></span>
+							</form>
+					</div> -->
+			</div>
+			<div id="algoselector">
+				<div id="BFS">BFS</div>
+				<div id="Dijkstra">DIJKSTRA</div>
+				<div id="DFS">DFS</div>
+				<div id="AStar">A*(AStar)</div>
+			</div>
+		</div>
+	</div>
+	<footer>
+		<div id="footer"></div>
+	</footer>
+</body>
+
+</html>
